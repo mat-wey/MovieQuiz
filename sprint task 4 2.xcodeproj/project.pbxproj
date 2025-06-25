@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3BD40ED02E0C5F13000B9B3E /* YS Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BD40ECD2E0C5F13000B9B3E /* YS Display-Bold.ttf */; };
+		3BD40ED12E0C5F13000B9B3E /* YS Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BD40ECE2E0C5F13000B9B3E /* YS Display-Medium.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3BD40E8E2E0C4D2F000B9B3E /* sprint task 4 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sprint task 4 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD40ECD2E0C5F13000B9B3E /* YS Display-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YS Display-Bold.ttf"; sourceTree = "<group>"; };
+		3BD40ECE2E0C5F13000B9B3E /* YS Display-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YS Display-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +52,7 @@
 		3BD40E852E0C4D2F000B9B3E = {
 			isa = PBXGroup;
 			children = (
+				3BD40ECF2E0C5F13000B9B3E /* шрифты */,
 				3BD40E902E0C4D2F000B9B3E /* sprint task 4 2 */,
 				3BD40E8F2E0C4D2F000B9B3E /* Products */,
 			);
@@ -56,6 +64,15 @@
 				3BD40E8E2E0C4D2F000B9B3E /* sprint task 4 2.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD40ECF2E0C5F13000B9B3E /* шрифты */ = {
+			isa = PBXGroup;
+			children = (
+				3BD40ECD2E0C5F13000B9B3E /* YS Display-Bold.ttf */,
+				3BD40ECE2E0C5F13000B9B3E /* YS Display-Medium.ttf */,
+			);
+			path = "шрифты";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD40ED02E0C5F13000B9B3E /* YS Display-Bold.ttf in Resources */,
+				3BD40ED12E0C5F13000B9B3E /* YS Display-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
