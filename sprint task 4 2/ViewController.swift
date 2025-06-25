@@ -8,12 +8,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var counts: UILabel!
+    @IBOutlet weak var buttonДа: UIButton!
+    @IBOutlet weak var buttonНет: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        counts.text = "0/10"
     }
-
-
+    private var count = 0
+    @IBAction func buttonPlus1Нет(_ sender: Any) {
+        count += 1
+        counts.text = "\(count)/\(10)"
+    }
+    
+    @IBAction func buttonPlus1Да(_ sender: Any) {
+        count += 1
+        counts.text = "\(count)/\(10)"
+    }
 }
 

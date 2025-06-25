@@ -49,6 +49,9 @@
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="15"/>
                                             <color key="baseForegroundColor" name="YP Black"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="buttonPlus1Да:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pad-dh-e7o"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REK-h4-EoA">
                                         <rect key="frame" x="242" y="0.0" width="111" height="32"/>
@@ -58,6 +61,9 @@
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="15"/>
                                             <color key="baseForegroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="buttonPlus1Нет:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OpV-UH-yu3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -77,6 +83,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Os-BX-Rfi" secondAttribute="trailing" constant="20" id="g99-Z9-ZEz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonДа" destination="R0Y-jr-rh1" id="jF7-NL-d7h"/>
+                        <outlet property="buttonНет" destination="R0Y-jr-rh1" id="kJa-db-Zqg"/>
+                        <outlet property="counts" destination="v2V-jq-22H" id="nHW-Jq-6Ps"/>
+                        <outlet property="countsPlus1" destination="6Os-BX-Rfi" id="qrB-WY-N6U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
