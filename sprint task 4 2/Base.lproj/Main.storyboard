@@ -84,10 +84,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="QuestionTitleLabel" destination="mBg-hI-FSZ" id="pbM-DS-kda"/>
                         <outlet property="buttonДа" destination="R0Y-jr-rh1" id="jF7-NL-d7h"/>
-                        <outlet property="buttonНет" destination="R0Y-jr-rh1" id="kJa-db-Zqg"/>
-                        <outlet property="counts" destination="v2V-jq-22H" id="nHW-Jq-6Ps"/>
+                        <outlet property="buttonНет" destination="REK-h4-EoA" id="4NG-7g-5dI"/>
+                        <outlet property="counts" destination="v2V-jq-22H" id="iSG-VF-RiZ"/>
                         <outlet property="countsPlus1" destination="6Os-BX-Rfi" id="qrB-WY-N6U"/>
+                        <outlet property="вопрос" destination="hpL-TS-md5" id="UzF-d6-ORX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
