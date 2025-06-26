@@ -44,26 +44,30 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0Y-jr-rh1">
                                         <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="60"/>
-                                        <color key="backgroundColor" name="YP White"/>
+                                        <color key="backgroundColor" name="YP Black"/>
+                                        <color key="tintColor" name="YP White"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="да">
+                                        <buttonConfiguration key="configuration" style="filled" title="да">
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="15"/>
                                             <color key="baseForegroundColor" name="YP Black"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="buttonPlus1Да:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pad-dh-e7o"/>
+                                            <action selector="yesButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G1L-eV-HHX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REK-h4-EoA">
                                         <rect key="frame" x="186.66666666666663" y="0.0" width="166.33333333333337" height="60"/>
-                                        <color key="backgroundColor" name="YP White"/>
+                                        <color key="backgroundColor" name="YP Black"/>
+                                        <color key="tintColor" name="YP White"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="нет">
+                                        <buttonConfiguration key="configuration" style="filled" title="нет">
                                             <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="15"/>
                                             <color key="baseForegroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="buttonPlus1Нет:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OpV-UH-yu3"/>
+                                            <action selector="noButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8D-Ns-fmd"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -105,6 +109,10 @@
                         <outlet property="buttonНет" destination="REK-h4-EoA" id="4NG-7g-5dI"/>
                         <outlet property="counts" destination="v2V-jq-22H" id="iSG-VF-RiZ"/>
                         <outlet property="countsPlus1" destination="6Os-BX-Rfi" id="qrB-WY-N6U"/>
+                        <outlet property="imageView" destination="orM-os-BJU" id="7gf-rq-taH"/>
+                        <outlet property="indexLabel" destination="v2V-jq-22H" id="fdP-5o-x1X"/>
+                        <outlet property="questionLabel" destination="hpL-TS-md5" id="rzb-bx-Fxa"/>
+                        <outlet property="questionTitleLabel" destination="mBg-hI-FSZ" id="ryr-iD-AS9"/>
                         <outlet property="вопрос" destination="hpL-TS-md5" id="UzF-d6-ORX"/>
                     </connections>
                 </viewController>
